@@ -1,4 +1,6 @@
+console.log("Present");
 document.getElementById("submitApex").addEventListener("click", function () {
+  console.log("Choosen");
   let username = document.getElementById("usernameApex").value;
   let platform = document.getElementById("platformApex").value;
   let apikey = "zfSHkgtMWEEsoXTNRMnj"
