@@ -1,6 +1,4 @@
-console.log("Running");
 document.getElementById("submitOverwatch").addEventListener("click", function (){
-  console.log("Clicked");
   let username = document.getElementById("usernameOverwatch").value;
   let region = document.getElementById("regionOverwatch").value;
   let platform = document.getElementById("platformOverwatch").value;
