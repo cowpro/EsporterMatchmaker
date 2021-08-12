@@ -4,51 +4,58 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>PUBG</h1>
-    <a href="index.html">Home</a>
-    <hr />
+    <div class="content-background">
+      <a href="index.html" class="do-not-display"><img src="logo.png" class = "logo-image" /></a>
+      <h1 style="font-size: 35px;">PlayerUnknown's Battlegrounds</h1>
+      <hr />
+      <br />
+      <label for="Username">Username:</label>
+      <input type="text" name="Username" id="usernamePubg" value="" placeholder="Enter Username">
+      <br />
+      <label for="Platform">Platform:</label>
+      <select name="Platform" id="platformPubg">
+        <option value="steam">Steam</option>
+        <option value="xbox">Xbox</option>
+        <option value="psn">Play Station</option>
+        <option value="stadia">Stadia</option>
+        <option value="kakao">Kakao</option>
+      </select>
+      <br />
+      <input type="button" name="Submit" id="submitPubg" value="Submit" class="submit">
+      <h2 id="usernameResultPubg"></h2>
+      <div class="row">
+        <div class="column">
+          <p id="bestRankPointResultPubg"></p>
+          <p id="soloKillsResultFPSPubg"></p>
+          <p id="soloKillsResultTPSPubg"></p>
+          <p id="duoKillsResultFPSPubg"></p>
+          <p id="duoKillsResultTPSPubg"></p>
+          <p id="squadKillsResultFPSPubg"></p>
+          <p id="squadKillsResultTPSPubg"></p>
+          <p id="soloAssistsResultFPSPubg"></p>
+          <p id="soloAssistsResultTPSPubg"></p>
+          <p id="duoAssistsResultFPSPubg"></p>
+          <p id="duoAssistsResultTPSPubg"></p>
+          <p id="squadAssistsResultFPSPubg"></p>
+          <p id="squadAssistsResultTPSPubg"></p>
+        </div>
+        <div class="column">
+          <p id="soloWinsResultFPSPubg"></p>
+          <p id="soloWinsResultTPSPubg"></p>
+          <p id="duoWinsResultFPSPubg"></p>
+          <p id="duoWinsResultTPSPubg"></p>
+          <p id="squadWinsResultFPSPubg"></p>
+          <p id="squadWinsResultTPSPubg"></p>
+          <p id="soloDamageResultFPSPubg"></p>
+          <p id="soloDamageResultTPSPubg"></p>
+          <p id="duoDamageResultFPSPubg"></p>
+          <p id="duoDamageResultTPSPubg"></p>
+          <p id="squadDamageResultFPSPubg"></p>
+          <p id="squadDamageResultTPSPubg"></p>
+        </div>
+      </div>
 
-    <label for="Username">Username:</label>
-    <input type="text" name="Username" id="usernamePubg" value="" placeholder="Enter Username">
-    <br />
-    <label for="Platform">Platform:</label>
-    <select name="Platform" id="platformPubg">
-      <option value="steam">Steam</option>
-      <option value="xbox">Xbox</option>
-      <option value="psn">Play Station</option>
-      <option value="stadia">Stadia</option>
-      <option value="kakao">Kakao</option>
-    </select>
-    <br />
-    <input type="button" name="Submit" id="submitPubg" value="Submit">
-
-    <h2 id="usernameResultPubg"></h2>
-    <p id="bestRankPointResultPubg"></p>
-    <p id="soloKillsResultFPSPubg"></p>
-    <p id="soloKillsResultTPSPubg"></p>
-    <p id="duoKillsResultFPSPubg"></p>
-    <p id="duoKillsResultTPSPubg"></p>
-    <p id="squadKillsResultFPSPubg"></p>
-    <p id="squadKillsResultTPSPubg"></p>
-    <p id="soloAssistsResultFPSPubg"></p>
-    <p id="soloAssistsResultTPSPubg"></p>
-    <p id="duoAssistsResultFPSPubg"></p>
-    <p id="duoAssistsResultTPSPubg"></p>
-    <p id="squadAssistsResultFPSPubg"></p>
-    <p id="squadAssistsResultTPSPubg"></p>
-    <p id="soloWinsResultFPSPubg"></p>
-    <p id="soloWinsResultTPSPubg"></p>
-    <p id="duoWinsResultFPSPubg"></p>
-    <p id="duoWinsResultTPSPubg"></p>
-    <p id="squadWinsResultFPSPubg"></p>
-    <p id="squadWinsResultTPSPubg"></p>
-    <p id="soloDamageResultFPSPubg"></p>
-    <p id="soloDamageResultTPSPubg"></p>
-    <p id="duoDamageResultFPSPubg"></p>
-    <p id="duoDamageResultTPSPubg"></p>
-    <p id="squadDamageResultFPSPubg"></p>
-    <p id="squadDamageResultTPSPubg"></p>
-
+    </div>
 
     <script src="pubg.js" type="text/javascript"></script>
   </body>
