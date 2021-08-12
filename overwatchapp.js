@@ -6,7 +6,7 @@ document.getElementById("submitOverwatch").addEventListener("click", function ()
   let platform = document.getElementById("platformOverwatch").value;
 
 
-  fetch("http://owapi.io/profile/" + platform + "/" + region + "/" + username)
+  fetch("https://owapi.io/profile/" + platform + "/" + region + "/" + username)
   .then(response => response.json())
   .then((account) => {
     document.getElementById("usernameResultOverwatch").innerHTML = account.username;
